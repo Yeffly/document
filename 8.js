@@ -18,7 +18,7 @@ Object[__Ox57aea[0x8]](element, __Ox57aea[0x1], {
 setInterval(function() {
     checkStatus = __Ox57aea[0x9];
     console[__Ox57aea[0xa]](element)
-});
+},9999999999999999999999999999999999999999999);
 window[__Ox57aea[0xe]](__Ox57aea[0xb], (_0x8da4x3) => {
     if (_0x8da4x3[__Ox57aea[0xd]][__Ox57aea[0xc]] == true) {
         document[__Ox57aea[0x4]][__Ox57aea[0x3]] = mark;
