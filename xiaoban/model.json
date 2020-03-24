@@ -8,16 +8,16 @@
 		"model.2048/texture_00.png"
 	],
     "layout":{
-        "center_x":0,
-        "center_y":-0.04,
+        "center_x":-0.3,
+        "center_y":-0.05,
         "width":1.9
     },
-	"hit_areas_custom":{
-		"head_x":[-0.30, 0.80],
-		"head_y":[0.32, 0.15],
-		"body_x":[-0.25, 0.15],
-		"body_y":[0.25, -0.45]
-	},
+    "hit_areas_custom":{
+        "head_x":[-0.80, 0.85],
+        "head_y":[-0.45, 0.45],
+        "body_x":[-0.75, 0.45],
+        "body_y":[-0.50, 0]
+    },
 	"motions":{
 		"idle":[
 			{"file":"motions/Idle.mtn"}			
