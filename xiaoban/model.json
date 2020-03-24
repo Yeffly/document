@@ -9,7 +9,7 @@
 	],
     "layout":{
         "center_x":-0.3,
-        "center_y":-0.05,
+        "center_y":-0.08,
         "width":1.9
     },
     "hit_areas_custom":{
