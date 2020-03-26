@@ -1,3 +1,7 @@
+var message_Path = '/live2d/'
+var home_Path = 'https://blog.fizzeleven.com/'    
+var home_page=document.location.protocol +'//' + document.location.hostname +'/'
+var close_xxb = document.getElementsByClassName("platelet")[0];
 function renderTip(template, context) {
     var tokenReg = /(\\)?\{([^\{\}\\]+)(\\)?\}/g;
     return template.replace(tokenReg, function (word, slash1, token, slash2) {
@@ -19,9 +23,6 @@ function renderTip(template, context) {
 String.prototype.renderTip = function (context) {
     return renderTip(this, context);
 };
-
-var home_page=document.location.protocol +'//' + document.location.hostname +'/'
-var close_xxb = document.getElementsByClassName("platelet")[0];
 
 $(document).on('copy', function (){
     showMessage('你都复制了些什么呀，转载要记得加上出处哦~~', 5000);
@@ -193,9 +194,7 @@ function hideMessage(timeout){
     });
 $.getScript("https://cdn.jsdelivr.net/gh/Yeffly/document/doc/fire.js");
     var yh = new CursorSpecialEffects();
-    yh.init();
-    var message_Path = '/live2d/'
-    var home_Path = 'https://blog.fizzeleven.com/'     
+    yh.init(); 
 document.body.onclick = function() {
      document.querySelector(".skPlayer-list").classList.add("musicPlayerHiden");
     }
