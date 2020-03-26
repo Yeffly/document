@@ -223,14 +223,14 @@ function jumpForSearch(search_ct){
     });
   }
 }
-        document.onreadystatechange = currentState 
+document.onreadystatechange = currentState 
 function currentState(){
     if (document.readyState == 'complete'){
         const Toast = Swal.mixin({
           toast: true,
           position: 'top-end',
           showConfirmButton: false,
-          timer: 1500,
+          timer: 3000,
           timerProgressBar: true,
           onOpen: (toast) => {
           toast.addEventListener('mouseenter', Swal.stopTimer)
