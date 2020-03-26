@@ -5,7 +5,7 @@ function currentState(){
           toast: true,
           position: 'top-end',
           showConfirmButton: false,
-          timer: 1500,
+          timer: 3500,
           timerProgressBar: true,
           onOpen: (toast) => {
           toast.addEventListener('mouseenter', Swal.stopTimer)
