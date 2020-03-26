@@ -12,7 +12,6 @@ function currentState(){
           toast.addEventListener('mouseleave', Swal.resumeTimer)
          }
         })
-
         Toast.fire({
           icon: 'success',
           title: '一切就绪'
