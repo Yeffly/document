@@ -223,27 +223,6 @@ function jumpForSearch(search_ct){
     });
   }
 }
-document.onreadystatechange = currentState 
-function currentState(){
-    if (document.readyState == 'complete'){
-        const Toast = Swal.mixin({
-          toast: true,
-          position: 'top-end',
-          showConfirmButton: false,
-          timer: 3000,
-          timerProgressBar: true,
-          onOpen: (toast) => {
-          toast.addEventListener('mouseenter', Swal.stopTimer)
-          toast.addEventListener('mouseleave', Swal.resumeTimer)
-         }
-        })
-
-        Toast.fire({
-          icon: 'success',
-          title: '一切就绪'
-        })
-    }
-}
 document.onkeydown = function(){
     
     if(window.event && window.event.keyCode == 123) {
