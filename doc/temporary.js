@@ -47,6 +47,11 @@ $('.platelet-tool .info').click(function () {
     window.open("https://www.fizzeleven.com/");   
 });
 
+$('.platelet-tool .eye').click(function () {
+    switchNightMode();
+    showMessage('你会做眼保健操吗？', 3000, true);
+ });
+
 function initTips(){
     $.ajax({
         cache: true,
