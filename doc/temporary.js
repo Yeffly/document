@@ -404,4 +404,4 @@ document.onkeydown = function(){
         event.returnValue=false;
     }
 }  
-loadlive2d("live2d", "https://cdn.jsdelivr.net/gh/Yeffly/document/xiaoban/model.json")
+loadlive2d("live2d", "https://cdn.jsdelivr.net/gh/Yeffly/document/xiaoban/model.json");
