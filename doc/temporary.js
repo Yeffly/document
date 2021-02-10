@@ -398,8 +398,8 @@ function currentState(){
         })
     }
 }
-loadlive2d("live2d", "https://cdn.jsdelivr.net/gh/Yeffly/document/xiaoban/model.json")
 
+loadlive2d("live2d", "https://cdn.jsdelivr.net/gh/Yeffly/document/xiaoban/model.json")
 document.onkeydown = function(){  
     if(window.event && window.event.keyCode == 123) {
         event.keyCode=0;
